@@ -1,0 +1,108 @@
+#calcMat{
+    border: 1px solid #686750; 
+    margin:15px auto;
+    max-width:350px;
+}
+
+.bodyCalc{
+    display:none;
+    padding:10px;
+}
+
+#calcMat .header_calc{
+    cursor:pointer;
+    background: #686750;
+    padding: 15px;
+}
+
+#calcMat .header_calc h5{
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.altura, .largura{
+    display:flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.altura label, .largura label{
+    margin-right:5px;
+    font-size: .7em !important;
+    font-weight:100 !important;
+}
+
+.altura input, .largura input{
+    width:30% !important;
+    margin-left:5px;
+    padding: 5px 10px !important;
+    height: 30px !important;
+}
+
+.valuesFields .row{
+    margin:10px auto;
+}
+
+.valuesFields p{
+    text-align:center; 
+    font-size:14px;
+}
+
+
+.valuesFields .buttonCalc{
+    display:block;
+    margin:0 auto;
+    background-color:#686750 !important;
+    opacity:1 !important;
+    color:#fff;
+}
+
+.valuesFields label, .valuesFields input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionsFields{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.optionsFields input{
+    height: 15px;
+    width: 15px;
+}
+
+.optionsFields label{
+    font-size:.7em;
+}
+
+.optionsRolls{
+    display:none;
+    max-width:350px;
+    border: 1px solid #686750; 
+    margin:15px auto;
+}
+
+.optionsRolls .header_calc{
+    background: #686750;
+    padding: 15px;
+    margin-bottom:15px;
+}
+
+.optionsRolls .header_calc h5{
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.buttonCalc{
+    font-size: .7em;
+}
